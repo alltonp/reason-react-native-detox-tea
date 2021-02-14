@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bcc66e7-4822-45e8-85cb-a6e7dd0cf3c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TODO.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/init.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/kotlin/reasontea/App.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/test/kotlin/reasontea/AppTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/reason_react_native/refreshAndRestart.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/reason_react_native/runSimulatorIOS.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/reason_react_native/src/App.re" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/reason_react_native/src/Count.re" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/reason_react_native/src/Http.re" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/reason_react_native/src/Styles.re" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/reason_react_native/src/Types.re" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/reason_react_native/src/Update.re" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/reason_react_native/src/Views.re" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/reason_react_native/src/tea/Flex.re" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/reason_react_native/src/tea/Shell.re" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,5 +39,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="init from template" />
+    <MESSAGE value="run init.sh" />
+    <option name="LAST_COMMIT_MESSAGE" value="run init.sh" />
   </component>
 </project>
