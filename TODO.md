@@ -1,3 +1,0 @@
-- describe how to the the .bs.js hiding using scope `file[direct-app]:*/&&!file[direct-app]:src//*.bs.js`
-- consider which of the other deps we might want to add
-- TIP: for RN 0.63 we need Xcode 12.0 or higher see: https://github.com/facebook/react-native/issues/27166
