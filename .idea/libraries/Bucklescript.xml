@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="Bucklescript" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/app/node_modules/bs-fetch" />
+        <item url="file://$PROJECT_DIR$/app/node_modules/reason-react" />
+        <item url="file://$PROJECT_DIR$/app/node_modules/reason-react-native" />
+        <item url="file://$PROJECT_DIR$/app/node_modules/reason-react-update" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/node_modules/bs-fetch" />
+      <root url="file://$PROJECT_DIR$/app/node_modules/reason-react" />
+      <root url="file://$PROJECT_DIR$/app/node_modules/reason-react-native" />
+      <root url="file://$PROJECT_DIR$/app/node_modules/reason-react-update" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

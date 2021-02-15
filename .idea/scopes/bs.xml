@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="bs" pattern="file[reason-react-native-detox-tea]:*/&amp;&amp;!file[reason-react-native-detox-tea]:app/src/*.bs.js" />
+</component>
