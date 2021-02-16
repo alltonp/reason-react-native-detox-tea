@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9bcc66e7-4822-45e8-85cb-a6e7dd0cf3c4" name="Default Changelist" comment="set">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Bucklescript.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/reason-react-native-detox-tea.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scopes/bs.xml" afterDir="false" />
+    <list default="true" id="9bcc66e7-4822-45e8-85cb-a6e7dd0cf3c4" name="Default Changelist" comment="setup bs scope">
+      <change afterPath="$PROJECT_DIR$/DETOX.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.detoxrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/e2e/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/e2e/environment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/e2e/firstTest.e2e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/e2e/init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ios/ReasonteaApp.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TODO.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/app/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Views.re" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Views.re" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/app/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +40,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1oO8rZdNuDl6upNxpih3iViDBy9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,7 +55,13 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="org.elm.workspace.PROJECT_DISCOVERY" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -59,6 +73,8 @@
     <MESSAGE value="init from template" />
     <MESSAGE value="run init.sh" />
     <MESSAGE value="blah" />
-    <option name="LAST_COMMIT_MESSAGE" value="blah" />
+    <MESSAGE value="tidy docs" />
+    <MESSAGE value="setup bs scope" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup bs scope" />
   </component>
 </project>
