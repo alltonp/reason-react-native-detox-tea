@@ -13,7 +13,12 @@
     {
       "dir": "src",
       "subdirs": true
+    },
+    {
+      "dir": "e2e",
+      "type": "dev"
     }
   ],
-    "bs-dependencies": ["reason-react-update", "bs-fetch", "reason-react", "reason-react-native"]
+  "bs-dependencies": ["reason-react-update", "bs-fetch", "reason-react", "reason-react-native", "@glennsl/bs-jest", "reason-detox"],
+  "ppx-flags": ["bs-let/ppx"]
 }

@@ -17,14 +17,4 @@ beforeEach(async () => {
 
 beforeAll(async () => {
     await device.launchApp();
-    // await things.setDemoMode();
 });
-
-// afterEach(async () => {
-//     console.log('*** afterEach done');
-// });
-//
-// afterAll(async () => {
-//     console.log('*** afterAll done');
-// });
-

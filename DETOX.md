@@ -4,7 +4,7 @@ TL;DR of [installation guide](https://github.com/wix/Detox/blob/master/docs/Intr
 
 - `npm install -g detox-cli` and `npm install detox --save-dev` to install detox
 
-- `brew tap wix/brew` and `brew install applesimutils` to install the ios stuff required for detox (note: I didn't do the Android stuff, see: https://github.com/wix/Detox/blob/master/docs/Introduction.GettingStarted.md)
+- `brew tap wix/brew` and `brew install applesimutils` to install the ios stuff required for detox (note: I didn't do the Android stuff, see: https://github.com/wix/Detox/blob/master/docs/Introduction.GettingStarted.md) ... actually, I think this bit is optional 
 
 - `npm install jest jest-cli jest-circus --save-dev --no-package-lock` and `detox init -r jest` to setup jest for detox
 
