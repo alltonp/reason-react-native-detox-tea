@@ -1,17 +1,15 @@
-let get = (send, url, success, failure) => {
+let read = (send, path, success, failure) => {
   Js.Promise.(
-    Fetch.fetch(url)
-    |> then_(Fetch.Response.text)
+    RNFS.readFile(~path)
     |> then_(x => success(x) |> send |> resolve)
     |> catch(error => failure(error) |> send |> resolve)
     |> ignore
   );
 };
 
-let post = (send, url, success, failure) => {
+let write = (send, path, contents, success, failure) => {
   Js.Promise.(
-    Fetch.fetchWithInit(url, Fetch.RequestInit.make(~method_=Post, ()))
-    |> then_(Fetch.Response.text)
+    RNFS.writeFile(~path, ~contents)
     |> then_(x => success(x) |> send |> resolve)
     |> catch(error => failure(error) |> send |> resolve)
     |> ignore

@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9bcc66e7-4822-45e8-85cb-a6e7dd0cf3c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/e2e/firstTest.re" afterDir="false" />
+    <list default="true" id="9bcc66e7-4822-45e8-85cb-a6e7dd0cf3c4" name="Default Changelist" comment="upgrade the tests to use reason-detox">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEPS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/File.re" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/rns/RNFS.re" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/rns/rnfs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Bucklescript.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Bucklescript.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DETOX.md" beforeDir="false" afterPath="$PROJECT_DIR$/DETOX.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/bsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/bsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/e2e/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/e2e/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/e2e/firstTest.e2e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/e2e/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/e2e/init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/app/ios/Podfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Count.re" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Count.re" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Http.re" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Http.re" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Update.re" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Update.re" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/tea/Flex.re" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Flex.re" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/tea/Shell.re" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Shell.re" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/app/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,16 +54,21 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="org.elm.workspace.PROJECT_DISCOVERY" value="true" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -73,6 +84,7 @@
     <MESSAGE value="tidy docs" />
     <MESSAGE value="setup bs scope" />
     <MESSAGE value="add detox (js) infra and a test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add detox (js) infra and a test" />
+    <MESSAGE value="upgrade the tests to use reason-detox" />
+    <option name="LAST_COMMIT_MESSAGE" value="upgrade the tests to use reason-detox" />
   </component>
 </project>
