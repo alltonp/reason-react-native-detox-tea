@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bcc66e7-4822-45e8-85cb-a6e7dd0cf3c4" name="Default Changelist" comment="upgrade the tests to use reason-detox">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DEPS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/File.re" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/rns/RNFS.re" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/rns/rnfs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Bucklescript.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Bucklescript.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/app/ios/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/Count.re" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Count.re" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Http.re" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Http.re" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Update.re" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Update.re" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/tea/Flex.re" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Flex.re" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/tea/Shell.re" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Shell.re" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/app/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/rns/RNFS.re" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/rns/rnfs.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +15,9 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="ElmWorkspace">
     <elmProjects />
@@ -75,6 +67,28 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
@@ -85,6 +99,7 @@
     <MESSAGE value="setup bs scope" />
     <MESSAGE value="add detox (js) infra and a test" />
     <MESSAGE value="upgrade the tests to use reason-detox" />
-    <option name="LAST_COMMIT_MESSAGE" value="upgrade the tests to use reason-detox" />
+    <MESSAGE value="improve readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="improve readme" />
   </component>
 </project>
