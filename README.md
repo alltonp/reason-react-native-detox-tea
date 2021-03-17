@@ -1,12 +1,13 @@
 # Elm Counter Example in Reason React Native
 
-- the canonical elm [counter](https://elm-lang.org/examples/buttons) example implemented as a mobile app in reason (reasonml/bucklescript/rescript)
+### What?
+- the elm [counter](https://elm-lang.org/examples/buttons) example implemented as a mobile app in reason (reasonml/bucklescript/rescript)
 - backend in kotlin with http4k
 - acceptance tests in [Detox](https://github.com/wix/Detox)
-- following The Elm Architecture (TEA) - [Model](https://github.com/alltonp/reason-react-native-detox-tea/blob/main/app/src/Types.re) -> 
-[Update](https://github.com/alltonp/reason-react-native-detox-tea/blob/main/app/src/Update.re) ->
-[View](https://github.com/alltonp/reason-react-native-detox-tea/blob/main/app/src/Views.re) 
 
+### How?
+- following The Elm Architecture (TEA) as closely as possible, we have Reason equivalents of [Model](https://github.com/alltonp/reason-react-native-detox-tea/blob/main/app/src/Types.re), [Update](https://github.com/alltonp/reason-react-native-detox-tea/blob/main/app/src/Update.re) and [View](https://github.com/alltonp/reason-react-native-detox-tea/blob/main/app/src/Views.re) 
+- and this is how we [acceptance test](https://github.com/alltonp/reason-react-native-detox-tea/blob/main/app/e2e/firstTest.re) it
 
 ### running the app
 
