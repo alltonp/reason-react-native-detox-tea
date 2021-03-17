@@ -6,7 +6,7 @@
 - acceptance tests in [Detox](https://github.com/wix/Detox)
 
 ### how?
-- following The Elm Architecture (TEA) as closely as possible, we have Reason equivalents of [Model](https://github.com/alltonp/reason-react-native-detox-tea/blob/main/app/src/Types.re), [Update](https://github.com/alltonp/reason-react-native-detox-tea/blob/main/app/src/Update.re) and [View](https://github.com/alltonp/reason-react-native-detox-tea/blob/main/app/src/Views.re) 
+- the [App](https://github.com/alltonp/reason-react-native-detox-tea/blob/main/app/src/App.re) follows The Elm Architecture (TEA) as closely as possible, with Reason equivalents of [Model](https://github.com/alltonp/reason-react-native-detox-tea/blob/main/app/src/Types.re), [Update](https://github.com/alltonp/reason-react-native-detox-tea/blob/main/app/src/Update.re) and [View](https://github.com/alltonp/reason-react-native-detox-tea/blob/main/app/src/Views.re) 
 - and this is how we [acceptance test](https://github.com/alltonp/reason-react-native-detox-tea/blob/main/app/e2e/firstTest.re) it
 
 ### running the app
@@ -20,3 +20,6 @@ in three separate terminals:
 
 1. `cd app && detox test`
 1. That's it!
+
+![app.png](app.png)
+
