@@ -11,6 +11,9 @@
 
 ### running the app
 
+prerequisites
+- Xcode 12.4 or higher
+
 in three separate terminals:
 1. start the server `cd server && ./run.sh`
 1. start the front end `cd app && ./refreshAndRestart.sh`
