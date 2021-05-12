@@ -15,9 +15,13 @@ prerequisites
 - Xcode 12.4 or higher
 
 in three separate terminals:
-1. start the server `cd server && ./run.sh`
-1. start the front end `cd app && ./refreshAndRestart.sh`
-1. start the iOS Simulator `cd app && ./runSimulatorIOS.sh`
+1. start the backend server
+    - `cd server && ./run.sh`
+2. start the front end server
+    - `cd app && ./refreshAndRestart.sh`
+3. start the iOS Simulator
+    - (first time only) `cd app/ios && pod install`
+    - `cd app && ./runSimulatorIOS.sh`
 
 ### running the tests
 
